@@ -5,7 +5,7 @@ import { v4 as uuidv4 } from "uuid";
 
 // Connect to MongoDB
 async function connectToDatabase() {
-  await mongoose.connect("mongodb+srv://adinaDevFest:Cwa1986@@devfest.n4yua.mongodb.net/", {
+  await mongoose.connect("mongodb+srv://", {
     
   });
   console.log("Connected to MongoDB");
