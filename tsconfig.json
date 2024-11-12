@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "target": "ES6",     
+      "outDir": "./dist",
+      "strict": true,
+      "esModuleInterop": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "rootDirs": ["src"],    
+      "lib": ["es2020"],  
+      "module": "esnext",
+      "moduleResolution": "node",    
+      "types": ["node"]
+    },
+    "include": ["src/**/*"],
+    
+  }
+  
